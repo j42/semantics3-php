@@ -1,5 +1,5 @@
 {
-  "name": "semantics3/semantics3-php",
+  "name": "j42/semantics3-php",
   "description": "PHP library bindings for the Semantics3 APIs",
   "keywords": [
     "semantics3",
@@ -18,6 +18,9 @@
     "php": ">=5.2"
   },
   "autoload": {
-    "classmap": ["lib/Semantics3/"]
+    "classmap": [
+      "lib/Semantics3/",
+      "lib/oauth-php/library/"
+    ]
   }
 }
